@@ -1,0 +1,41 @@
+section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+section.movie-list {
+    width: 38%;
+
+    background-color: lightblue;
+}
+
+section.user-events {
+    width: 60%;
+
+    background-color: lightcoral;
+}
+
+.movie-list > * {
+    padding: 1vh 1vw;
+}
+
+.movie-list ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.movie-list ul li {
+    padding-top: 2vh;
+}
+
+.fa {
+    font-size: 1.5em;
+    margin-right: 1vw;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 1vw 1vh;
+    margin-left: 1vh;
+    font-size: 1.2em;
+}
